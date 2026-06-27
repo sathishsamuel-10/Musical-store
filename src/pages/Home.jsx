@@ -52,11 +52,11 @@ const Home = () => {
 
                     <div className="mind-list">
                         <div className="mind-item" data-aos="zoom-in" data-aos-delay="100">
-                            <img src="/public/yamaha.jpeg" alt="Yamaha" />
+                            <img src="../public/yamaha.jpeg" alt="Yamaha" />
                             <p>Yamaha</p>
                         </div>
                         <div className="mind-item" data-aos="zoom-in" data-aos-delay="200">
-                            <img src="/public/ashton.png" alt="Ashton" />
+                            <img src="../public/ashton.png" alt="Ashton" />
                             <p>Ashton</p>
                         </div>
                         <div className="mind-item" data-aos="zoom-in" data-aos-delay="300">
