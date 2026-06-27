@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "title": "Yamaha",
+    "category": "Keyboard",
+    "model": "PSS F30 YAMAHA",
+    "price": "4600",
+    "image": "./public/yamaha.jpeg"
+  },
+  {
+    "id": 2,
+    "title": "Roland",
+    "category": "Keyboard",
+     "model": "PSR s900 YAMAHA",
+    "image": "./public/roland.jpeg"
+  },
+  {
+    "id": 3,
+    "title": "Fender",
+    "category": "Guitar",
+     "model": "PSR s900 YAMAHA",
+    "image": "./public/fender.jpeg"
+  },
+  {
+    "id": 4,
+    "title": "Casio",
+    "category": "Keyboard",
+     "model": "PSR s900 YAMAHA",
+    "image": "./public/casio.jpeg"
+  },
+  {
+    "id": 5,
+    "title": "Ashton",
+    "category": "Drums",
+    "image": "./public/ashton.png"
+  },
+  {
+    "id": 6,
+    "title": "Gibson",
+    "category": "Guitar",
+    "image": "./public/gibson.jpeg"
+  },
+  {
+    "id": 7,
+    "title": "Havana",
+    "category": "Violin",
+    "image": "./public/havana.jpeg"
+  },
+  {
+    "id": 8,
+    "title": "Hohner",
+    "category": "Keyboard",
+    "image": "./public/hohner.jpeg"
+  },
+  {
+    "id": 9,
+    "title": "Gretsch",
+    "category": "Guitar",
+    "image": "./public/gretsch.jpeg"
+  },
+  {
+    "id": 10,
+    "title": "Boss Audio Systems",
+    "category": "Drums",
+    "image": "./public/boss.jpeg"
+  }
+]

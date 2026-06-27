@@ -1,0 +1,172 @@
+.container {
+  display: flex;
+}
+
+.card-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+
+
+/* .card {
+  width: 280px;
+  background: #111;
+  color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.card:hover {
+  background: white;
+  color: black;
+  transform: translateY(-8px);
+} */
+
+
+
+.buttons {
+  border-radius: 20px;
+  border: none;
+  width: 100%;
+padding: 10px;
+ color: black;
+   margin-bottom: 80px;
+}
+button{
+ margin: 10px;
+}
+
+
+button:hover {
+  background-color: #A18664;
+  color: white;
+
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+  
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+}
+
+.card h4 {
+  width: 500px;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  margin: 20px;
+  text-align: left;
+  border-bottom: 2px dotted #A18664;
+  padding-bottom: 20px;
+ 
+
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 1px solid #A18664;
+  border-radius: 50%;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card button {
+  padding: 10px 15px;
+  border: none;
+  background: orange;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.activate {
+  color: #A18664;
+  background: none;
+  border: 1px solid #A18664
+}
+
+@media (max-width: 1024px) {
+.service h1{
+  font-size: 60px;
+}
+
+
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+}
+
+.card h4 {
+  width: 400px;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  margin: 20px;
+  text-align: left;
+  border-bottom: 2px dotted #A18664;
+  padding-bottom: 20px;
+ 
+
+}
+}
+@media (max-width: 768px) {
+  .service h1{
+  font-size: 40px;
+}
+.container {
+  display: block;
+  gap: 20px;
+}
+  .card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 20px;
+  
+
+}
+}
+@media (max-width: 425px) {
+  .service{
+    border:2px solid red
+  }
+  .service h1{
+  font-size: 24px;
+}
+.buttons{
+  display: grid;
+  gap:10px
+}
+.container{
+ display: grid;
+
+}
+.card{
+  margin: 0;
+  padding: 0;
+  width: 50px;
+  box-sizing: border-box;
+
+}
+.card h4{
+  border: none;
+}
+
+}
